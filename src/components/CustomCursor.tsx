@@ -30,7 +30,7 @@ export default function CustomCursor() {
         const isButton = target.tagName === 'BUTTON'
         
         setIsHoveringText(isText)
-        setIsHoveringAnchor(isAnchor || isButton)
+        // setIsHoveringAnchor(isAnchor || isButton)
     }
 
 		document.addEventListener("mousemove", moveCursor)

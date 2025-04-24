@@ -1,25 +1,7 @@
-// import type { NextConfig } from "next";
+import type { NextConfig } from "next";
 
-// const nextConfig: NextConfig = {
-//   /* config options here */
-// };
-
-// export default nextConfig;
-
-
-// next.config.ts
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-	output: 'standalone',
-	basePath: '/az_portfolio',
-	assetPrefix: '/az_portfolio/',
-	images: {
-		unoptimized: true,
-	},
-	eslint: {
-		ignoreDuringBuilds: true,
-	},
+const nextConfig: NextConfig = {
+  /* config options here */
 };
 
 export default nextConfig;

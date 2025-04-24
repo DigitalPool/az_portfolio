@@ -6,7 +6,7 @@ import React from 'react'
 export default function CustomCursor() {
 	const [position, setPosition] = useState({ x: 0, y: 0 })
     const [isHoveringText, setIsHoveringText] = useState(false)
-    const [isHoveringAnchor, setIsHoveringAnchor] = useState(false)
+    // const [isHoveringAnchor, setIsHoveringAnchor] = useState(false)
 
 	useEffect(() => {
 		const moveCursor = (e: MouseEvent) => {
@@ -39,7 +39,7 @@ export default function CustomCursor() {
 
     const cursorSize = isHoveringText ? 300 : 32;
     const cursorBackgroundColor = isHoveringText ? "#dd524c" : "#dd524c";
-    const offset = cursorSize / 2;
+    // const offset = cursorSize / 2;
 
 
 	return (

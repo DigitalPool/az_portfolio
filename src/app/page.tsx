@@ -9,6 +9,7 @@ import FrontendShowcase from "@/components/FrontendShowcase"
 import BackendShowcase from "@/components/BackendShowcase"
 import GraphicsShowcase from "@/components/GraphicsShowcase"
 import MotionShowcase from "@/components/MotionShowcase"
+import Link from "next/link";
 
 export default function HomePage() {
 	return (
@@ -23,12 +24,12 @@ export default function HomePage() {
 				<div>2012</div>
 			</h1>
 
-			<a
+			<Link
 				href="/projects"
 				className="mt-10 underline text-red-500 hover:text-white text-lg transition-all"
 			>
 				Explore Projects →
-			</a>
+			</Link>
 		</main>
 		<AboutMe />
 		<BackendShowcase />

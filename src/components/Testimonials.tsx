@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const testimonials = [
 	{
@@ -65,11 +66,13 @@ export default function Testimonials() {
 					{/* Sticky Avatars on Right */}
 					<div className="sticky top-32 h-fit flex flex-col gap-6 ml-12">
 						{testimonials.map((person, idx) => (
-							<img
+							<Image
 								key={idx}
 								src={person.image}
 								alt={person.name}
-								className={`w-16 h-16 rounded-full border-2 transition-all ${
+								width={64}
+								height={64}
+								className={`rounded-full border-2 transition-all ${
 									activeIndex === idx
 										? "border-red-500 opacity-100"
 										: "border-neutral-700 opacity-40"

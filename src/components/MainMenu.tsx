@@ -17,8 +17,8 @@
 // }
 
 "use client";
-
-import { useRouter } from "next/navigation";
+import Link from "next/link";
+// import { useRouter } from "next/navigation";
 
 export default function MainMenu() {
     // const router = useRouter();
@@ -43,7 +43,7 @@ export default function MainMenu() {
     return (
         <>
             <div className="fixed top-20 right-20 flex flex-col gap-4 z-50 text-right font-bold">
-                <a 
+                <Link 
                     href="#about" 
                     onClick={(e) => {
                         e.preventDefault();
@@ -52,8 +52,8 @@ export default function MainMenu() {
                     className="text-[#b7aa98] hover:text-red-500 transition-colors"
                 >
                     <h3>ABOUT</h3>
-                </a>
-                <a 
+                </Link>
+                <Link 
                     href="#clients" 
                     onClick={(e) => {
                         e.preventDefault();
@@ -62,8 +62,8 @@ export default function MainMenu() {
                     className="text-[#b7aa98] hover:text-red-500 transition-colors"
                 >
                     <h3>CLIENTS</h3>
-                </a>
-                <a 
+                </Link>
+                <Link 
                     href="#history" 
                     onClick={(e) => {
                         e.preventDefault();
@@ -72,8 +72,8 @@ export default function MainMenu() {
                     className="text-[#b7aa98] hover:text-red-500 transition-colors"
                 >
                     <h3>HISTORY</h3>
-                </a>
-                <a 
+                </Link>
+                <Link 
                     href="#testimonials" 
                     onClick={(e) => {
                         e.preventDefault();
@@ -82,8 +82,8 @@ export default function MainMenu() {
                     className="text-[#b7aa98] hover:text-red-500 transition-colors"
                 >
                     <h3>TESTIMONIALS</h3>
-                </a>
-                <a 
+                </Link>
+                <Link 
                     href="#philosophy" 
                     onClick={(e) => {
                         e.preventDefault();
@@ -92,8 +92,7 @@ export default function MainMenu() {
                     className="text-[#b7aa98] hover:text-red-500 transition-colors"
                 >
                     <h3>PHILOSOPHY</h3>
-                </a>
-            </div>
+                </Link>  </div>
         </>
     )
 }

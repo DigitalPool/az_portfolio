@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectCoverflow, Navigation } from 'swiper/modules'
+import Image from 'next/image'
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/navigation'
@@ -51,9 +52,11 @@ export default function GraphicsShowcase() {
 							onClick={() => setModalImage(project.image)}
 						>
 							<div className="overflow-hidden rounded-lg border border-neutral-800 shadow-xl">
-								<img
+								<Image
 									src={project.image}
 									alt={project.title}
+									width={400}
+									height={500}
 									className="w-full h-[500px] object-cover"
 								/>
 							</div>
@@ -71,9 +74,11 @@ export default function GraphicsShowcase() {
 					className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center"
 					onClick={() => setModalImage(null)}
 				>
-					<img
+					<Image
 						src={modalImage}
 						alt="Expanded Graphic"
+						width={1920}
+						height={1080}
 						className="max-w-5xl max-h-[90vh] object-contain"
 					/>
 				</div>

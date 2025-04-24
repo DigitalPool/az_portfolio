@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 
 const clients = [
 	{
@@ -60,11 +62,13 @@ export default function Clients() {
                         <div className="flex space-x-12 min-w-max">
                             {clients.map((client, index) => (
                                 <div key={index} className="flex items-center justify-center">
-                                    <img
-                                        src={client.logo}
-                                        alt={client.name}
-                                        className="h-16 w-32 object-contain grayscale hover:grayscale-0 transition duration-300"
-                                    />
+                                    <Image
+                                    src={client.logo}
+                                    alt={client.name}
+                                    width={128}
+                                    height={64}
+                                    className="object-contain grayscale hover:grayscale-0 transition duration-300"
+                                />
                                 </div>
                             ))}
                         </div>

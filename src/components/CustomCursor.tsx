@@ -26,8 +26,8 @@ export default function CustomCursor() {
             target.tagName === 'DIV' ||
             target.tagName === 'BUTTON'
 
-        const isAnchor = target.tagName === 'A'
-        const isButton = target.tagName === 'BUTTON'
+        // const isAnchor = target.tagName === 'A'
+        // const isButton = target.tagName === 'BUTTON'
         
         setIsHoveringText(isText)
         // setIsHoveringAnchor(isAnchor || isButton)

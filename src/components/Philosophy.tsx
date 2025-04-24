@@ -8,10 +8,10 @@ export default function Philosophy() {
 				</p>
 
 				<h2 className="text-7xl font-extrabold leading-tight text-[#b7aa98]">
-					" We don&apos;t have to wait for the
-					<span className="text-red-500">most perfect condition </span>
+				&ldquo;We don&apos;t have to wait for the
+					<span className="text-red-500"> most perfect condition </span>
 					else we get
-					<span className="text-red-500"> nothing done.</span> "
+					<span className="text-red-500"> nothing done.</span>&rdquo;
 				</h2>
 
 				<p className="uppercase tracking-[0.3em] text-sm text-bold text-neutral-500 mb-12">

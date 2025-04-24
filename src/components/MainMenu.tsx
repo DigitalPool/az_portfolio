@@ -21,7 +21,7 @@
 import { useRouter } from "next/navigation";
 
 export default function MainMenu() {
-    const router = useRouter();
+    // const router = useRouter();
 
     const scrollToSection = (id: string) => {
         const element = document.getElementById(id);

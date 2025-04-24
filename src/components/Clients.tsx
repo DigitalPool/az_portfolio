@@ -48,7 +48,7 @@ export default function Clients() {
                 </p>
 
                 <h2 className="text-7xl font-extrabold leading-tight text-[#b7aa98]">
-                    I've partnered with{" "}
+                    I&apos;ve partnered with{" "}
                     <span className="text-red-500">forward-thinking</span>{" "}
                     brands and industry leaders to craft impactful digital solutions that amplify their vision{" "}
                     <span className="text-red-500"> and elevate their portfolio.</span>

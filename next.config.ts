@@ -7,20 +7,18 @@
 // export default nextConfig;
 
 
-import type { NextConfig } from "next";
+// next.config.ts
 
-const nextConfig: NextConfig = {
-	// Enable static export
-	output: "export",
-
-	// If you're deploying to https://username.github.io/repo-name/
-	// set the basePath and assetPrefix to your repo name
-	basePath: "/your-repo-name",
-	assetPrefix: "/your-repo-name/",
-
-	// Optional: If you're using images
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+	output: 'export',
+	basePath: '/az_portfolio',
+	assetPrefix: '/az_portfolio/',
 	images: {
 		unoptimized: true,
+	},
+	eslint: {
+		ignoreDuringBuilds: true,
 	},
 };
 

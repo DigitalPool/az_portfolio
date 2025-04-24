@@ -11,7 +11,7 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	output: 'export',
+	output: 'standalone',
 	basePath: '/az_portfolio',
 	assetPrefix: '/az_portfolio/',
 	images: {

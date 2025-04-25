@@ -10,8 +10,8 @@ export default function MyLogo() {
                     <Image 
                         src="/images/azlogo_160.png"
                         alt="AZ logo" 
-                        width={80}
-                        height={80}
+                        width={60}
+                        height={60}
                         />
                     {/* Or use text as logo */}
                     {/* <span className="text-xl font-bold text-purple-500">DP</span> */}

@@ -19,15 +19,15 @@ import MainMenu from '@/components/MainMenu'
 
 export default function RootLayout({children}: {children: ReactNode}) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden">
       <body className="bg-black cursor-none {inter.className}">
         <CustomCursor />
         <MyLogo />
         <MySocials />
         <MainMenu />
         {children}
+        <Footer />
       </body>
-      <Footer />
     </html>
   );
 }

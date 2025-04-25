@@ -30,8 +30,8 @@ export default function Clients() {
 			</div>
 
 				 <div className="mt-16 relative">
-				 	<div className="overflow-x-auto">
-				 		<div className="flex space-x-10">
+                    <div className="w-full max-w-full overflow-x-auto">
+                        <div className="inline-flex space-x-10">
 				 			{clients.map((client, index) => (
 				 				<div key={index} className="flex items-center justify-center flex-shrink-0">
 				 					<Image

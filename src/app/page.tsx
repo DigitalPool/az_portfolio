@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export default function HomePage() {
 	return (
-		<>
+		<body className="overflow-x-hidden">
 		<Hero />
 		<AboutMe />
 		<BackendShowcase />
@@ -25,6 +25,6 @@ export default function HomePage() {
 		<Testimonials />
 		<MotionShowcase />
 		<Philosophy />
-	</>
+	</body>
 	)
 }

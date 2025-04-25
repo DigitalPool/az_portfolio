@@ -51,7 +51,7 @@ export default function BackendShowcase() {
 	  link: "https://github.com/DigitalPool/42-Minishell" 
 	},
 	{ 
-	  title: "Islamly Mobile App built with flutter", 
+	  title: "Islamly Mobile App built with kotlin", 
 	  video: "/showcase/Islamly_Mobile_App.mp4",
 	  link: "https://play.google.com/store/apps/details?id=com.islamly.muslims_connected" 
 	},

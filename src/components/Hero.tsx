@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <main className="min-h-screen flex flex-col items-center justify-center bg-black text-[#b7aa98] text-center px-4">
+        <main className="min-h-screen flex flex-col items-center justify-start pt-40 bg-black text-[#b7aa98] text-center px-4 mt-10 lg:mt-0">
 
 			<p className="mb-4 tracking-widest text-sm sm:text-lg md:text-xl lg:text-2xl font-bold text-[#b7aa98]">ABDULAZEEZ SHOBAJO</p>
 			<h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-bold leading-tight space-y-1 uppercase text-[#b7aa98]">

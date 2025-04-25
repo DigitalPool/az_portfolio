@@ -10,7 +10,6 @@ import FrontendShowcase from "@/components/FrontendShowcase"
 import BackendShowcase from "@/components/BackendShowcase"
 import GraphicsShowcase from "@/components/GraphicsShowcase"
 import MotionShowcase from "@/components/MotionShowcase"
-import Link from "next/link";
 
 export default function HomePage() {
 	return (

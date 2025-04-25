@@ -6,10 +6,15 @@ import React from 'react'
 export default function CustomCursor() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [isHoveringText, setIsHoveringText] = useState(false);
-  
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
+
   useEffect(() => {
+    // Check if we're on the client side
+    if (typeof window === 'undefined') return;
+
     // Don't initialize cursor logic if touch device
     if ('ontouchstart' in window || navigator.maxTouchPoints) {
+      setIsTouchDevice(true);
       return;
     }
 
@@ -37,8 +42,8 @@ export default function CustomCursor() {
     return () => document.removeEventListener("mousemove", moveCursor);
   }, []);
 
-  // Don't render cursor if touch device
-  if ('ontouchstart' in window || navigator.maxTouchPoints) {
+  // Don't render cursor if touch device or during SSR
+  if (isTouchDevice || typeof window === 'undefined') {
     return null;
   }
 
@@ -47,7 +52,7 @@ export default function CustomCursor() {
 
   return (
     <div
-      className="fixed top-0 left-0 rounded-full pointer-events-none z-[9999] transition-[width,height] duration-300 ease-in-out mix-blend-difference hidden md:block"
+      className="fixed top-0 left-0 rounded-full pointer-events-none z-[9999] transition-[width,height] duration-300 ease-in-out mix-blend-difference"
       style={{
         width: `${cursorSize}px`,
         height: `${cursorSize}px`,

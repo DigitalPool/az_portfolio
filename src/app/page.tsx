@@ -13,7 +13,7 @@ import MotionShowcase from "@/components/MotionShowcase"
 
 export default function HomePage() {
 	return (
-		<body className="overflow-x-hidden">
+	<body className="overflow-x-hidden">
 		<Hero />
 		<AboutMe />
 		<BackendShowcase />

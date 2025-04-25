@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function MySocials() {
 	return (
-		<div className="fixed bottom-20 left-20 flex flex-col gap-4 items-center z-50">
+		<div className="hidden md:flex fixed bottom-20 left-20 flex-col gap-4 items-center z-50">
 			{[
 				{ href: "https://web.facebook.com/shobazvision", src: "/icons/facebook.png", alt: "Facebook" },
 				{ href: "https://www.linkedin.com/in/abdulazeez-shobajo-304171138/", src: "/icons/linkedin.png", alt: "LinkedIn" },

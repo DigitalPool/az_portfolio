@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function MyLogo() {
     return (
-        <div className="fixed top-20 left-20">
+        <div className="pl-20 mt-20 lg:fixed">
                 <Link href="/" passHref>
                     {/* Replace with your actual logo image */}
                     <Image 

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    text: "AbdulAzeez nailed my vision perfectly—no revisions needed. Truly talented!",
+    text: "AbdulAzeez nailed my vision perfectly, no revisions needed. Truly talented!",
     name: "Ibby Vk",
     position: "Creative Lead",
     company: "ibbyvk.com",
@@ -49,7 +49,7 @@ export default function Testimonials() {
               {/* Author Info */}
               <div className="mt-6 flex items-center justify-between">
                 <div>
-                  <p className="font-semibold ml-8 lg:ml-10">{review.name}, {review.position}</p>
+                  <p className="font-semibold ml-8 lg:ml-10">{review.name}</p>
                   <p className="text-neutral-500 ml-8 lg:ml-10">{review.position}</p>
                   <p className="text-neutral-500 ml-8 lg:ml-10">{review.company}</p>
                 </div>

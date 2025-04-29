@@ -1,8 +1,8 @@
 const historyData = [
     { year: "2025", title: "Computer Programmer", company: "42Prague" },
-    { year: "2025", title: "Automation & Digital Manager", company: "DontSleepGFX Texas" },
-    { year: "2024", title: "Creative Director", company: "DigitalPool NG" },
+    { year: "2020", title: "Automation & Digital Manager", company: "DontSleepGFX Texas" },
     { year: "2019", title: "Lead, Brand Design", company: "Tolaram Nutri & Beverages Limited", highlight: true },
+    { year: "2018", title: "Creative Director", company: "DigitalPool NG" },
 ]
 
 export default function History() {

@@ -63,7 +63,7 @@ export default function MainMenu() {
             {isMobile && isMenuOpen && (
                 <div className="fixed inset-0 bg-black bg-opacity-95 z-40 flex flex-col items-center justify-center">
                     {/* Close Button */}
-                    <button 
+                    {/* <button 
                         className="absolute top-6 right-6 text-red-500 hover:text-white transition"
                         onClick={() => setIsMenuOpen(false)}
                         aria-label="Close menu"
@@ -71,7 +71,7 @@ export default function MainMenu() {
                         <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                         </svg>
-                    </button>
+                    </button> */}
 
                     <div className="flex flex-col items-center gap-8">
                         {menuItems.map((item) => (

@@ -9,14 +9,14 @@ import 'swiper/css/effect-coverflow'
 import 'swiper/css/navigation'
 
 const graphicsProjects = [
-	{ title: "Brand Identity Design", image: "/showcase/graphics1.png" },
+	{ title: "Arabic School Flyer", image: "/showcase/graphics1.png" },
 	{ title: "Brand Identity Design", image: "/showcase/graphics2.jpg" },
-	{ title: "Social Media Poster", image: "/showcase/graphics3.png" },
-	{ title: "Event Flyer", image: "/showcase/graphics4.png" },
-	{ title: "Product Mockup", image: "/showcase/graphics5.png" },
-	{ title: "Brand Identity Design", image: "/showcase/graphics6.png" },
-	{ title: "Social Media Poster", image: "/showcase/graphics7.png" },
-	{ title: "Event Flyer", image: "/showcase/graphics8.png" },
+	{ title: "Camping Program Poster", image: "/showcase/graphics3.png" },
+	{ title: "Movie Release Billboard", image: "/showcase/graphics4.png" },
+	{ title: "Fashion Designer Ad", image: "/showcase/graphics5.png" },
+	{ title: "Cocacola Brand Awareness Design", image: "/showcase/graphics6.png" },
+	{ title: "Visafone Social Media Poster", image: "/showcase/graphics7.png" },
+	{ title: "O2 TV Marketing Ad", image: "/showcase/graphics8.png" },
 ]
 
 export default function GraphicsShowcase() {

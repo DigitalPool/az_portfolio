@@ -61,8 +61,8 @@ export default function Footer() {
         <div className="border-t border-neutral-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-lg font-semibold">© {currentYear} AbdulAzeez Shobajo. All rights reserved.</p>
           <div className="mt-4 md:mt-0">
-            <a href="/privacy" className="text-lg font-semibold hover:text-red-500 transition mr-6">Privacy Policy</a>
-            <a href="/terms" className="text-lg font-semibold hover:text-red-500 transition">Terms of Service</a>
+            <a href="#" className="text-lg font-semibold hover:text-red-500 transition mr-6">Privacy Policy</a>
+            <a href="#" className="text-lg font-semibold hover:text-red-500 transition">Terms of Service</a>
           </div>
         </div>
       </div>

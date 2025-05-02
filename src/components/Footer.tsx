@@ -42,7 +42,7 @@ export default function Footer() {
           <div>
             <h3 className="text-4xl font-bold text-[#b7aa98] mb-6">Contact</h3>
             <ul className="space-y-4">
-              <li className="text-xl font-semibold">Prague, Czechia</li>
+              <li className="text-xl font-semibold">Prague, Czechia.</li>
               <li>
                 <a href="mailto:digitalpoolng@gmail.com" className="text-xl font-semibold hover:text-red-500 transition">
                   digitalpoolng@gmail.com
